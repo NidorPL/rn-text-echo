@@ -1,21 +1,16 @@
 {
   "name": "nidorpl-modules-rn-simpletext",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
-  "files": [
-    "build"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "peerDependencies": {
     "@types/react-native": "^0.64.10",
     "react": "^17.0.2",
