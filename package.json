@@ -1,16 +1,24 @@
 {
-  "name": "nidorpl-modules-rn-simpletext",
-  "version": "1.0.4",
+  "name": "nidorpl-modules-rn-simpletext-ts",
+  "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
+    "build": "tsc --project ./tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/react-native": "^0.64.10",
+    "typescript": "^4.3.2"
+  },
   "peerDependencies": {
     "@types/react-native": "^0.64.10",
     "react": "^17.0.2",
